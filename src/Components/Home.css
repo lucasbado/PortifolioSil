@@ -1,0 +1,105 @@
+.Main { 
+    
+    display: flex; 
+    
+}
+
+#Background2{
+    position: absolute;
+    left: 2;
+    min-width: 100%;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    font-size: 77.7px;
+    text-align: justify;
+    line-height: 50px;
+    box-shadow: 0 3px 5px rgb(55, 0, 255);
+    backdrop-filter: blur(50px);
+}
+
+#ibg{
+width: 100%;
+
+    
+} 
+#Imagem1{
+    position: fixed;
+    top: 10vh;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+
+    backdrop-filter: blur(5px);
+}
+   
+
+
+
+#imagem{
+        image-rendering: optimizeQuality;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    
+}
+
+#Hover{
+    position: relative;
+    left: 7px;
+    top: 7px;
+    min-height:20%;
+    min-width: 50%;
+    z-index: 5;
+    color: rgb(0, 0, 0);
+    font-size: 77.7px;
+    text-align: justify;
+    line-height: 50px;
+    filter: drop-shadow(25px 15px 27px rgb(26, 24, 24));
+    
+    
+}
+#Comum{
+    
+    margin-top: 4vh;
+    line-height: 70px;
+    position: relative;
+    z-index: 6;
+    min-height:20%;
+    min-width: 20%;
+}
+
+
+#By{
+    margin-top: 0vh;
+    max-width: 500px;
+    position: relative;
+    z-index: 6;
+    
+}
+
+#Fonte{
+    margin-top: 0vh;
+    margin-left: 13vh;
+    color: sandybrown;
+    z-index: 6;
+    position: relative;
+}
+
+#Link{
+    font-size: 37.7px;
+    margin:;
+    z-index: 6;
+    left: 50px;
+    position: relative;
+}
+#Link a{
+    text-decoration: none;
+}
+#Seta{
+    font-size: 37.7px;
+    margin: 40px;
+    z-index: 6;
+    position: relative; 
+
+}
