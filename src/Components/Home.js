@@ -24,20 +24,20 @@ function Home () {
         <div id='Hover'>
             <img id="imagem" src={meta} />
 
+            <div id='junto'>
             <p id="Comum">
                 Produção de moda
             </p>
-            <div id='junto'>
 
             <p id="By">
                 By
             </p>
             <p id="Fonte">
                 SIL ALVES
-                </p>
+            </p>
             </div>
             <div id="Link">
-               <Link to={'/Portifolio'}>Portifolio</Link>
+               <Link to={'/Portifolio'}>Conheça</Link>
                 </div>
             <div id="Seta">aa</div>
         

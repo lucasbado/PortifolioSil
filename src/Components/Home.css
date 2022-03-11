@@ -75,7 +75,7 @@ width: 100%;
     max-width: 500px;
     position: relative;
     z-index: 6;
-    
+    padding-left: 25vh;
 }
 
 #Fonte{
@@ -88,18 +88,26 @@ width: 100%;
 
 #Link{
     font-size: 37.7px;
-    margin:;
+    margin:0;
     z-index: 6;
-    left: 50px;
+    left: 40vh;
+    top: 5vh;
     position: relative;
+    text-decoration: none;
+    
 }
 #Link a{
     text-decoration: none;
+    color: #E5C8AC;
 }
+
+
+
 #Seta{
     font-size: 37.7px;
-    margin: 40px;
+    margin: 0;
     z-index: 6;
     position: relative; 
-
+    left: 35vh;
+    bottom: 5vh;
 }
