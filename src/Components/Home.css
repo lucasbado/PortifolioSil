@@ -18,38 +18,41 @@
 }
 
 #ibg{
-width: 100%;
-
+    
+    width: 100%;
+    top: 20vh;
     
 } 
 #Imagem1{
     position: fixed;
-    top: 10vh;
-    left: 0px;
     min-width: 100%;
     min-height: 100%;
     z-index: 1;
-
     backdrop-filter: blur(5px);
+    zoom: 150%;
 }
    
 
 
 
 #imagem{
-        image-rendering: optimizeQuality;
-        position: fixed;
-        width: 100%;
-        z-index: 2;
     
+    image-rendering: optimizeQuality;
+    position: fixed;
+    width: 140%;
+    z-index: 2;
+    right: 1vh;
+    object-fit: fill;
+    object-position: 30vh 5vh;
+
 }
 
 #Hover{
     position: relative;
-    left: 7px;
-    top: 7px;
+    left: 7vh;
+    top: 7vh;
     min-height:20%;
-    min-width: 50%;
+    min-width: 45%;
     z-index: 5;
     color: rgb(0, 0, 0);
     font-size: 77.7px;
@@ -58,24 +61,27 @@ width: 100%;
     filter: drop-shadow(25px 15px 27px rgb(26, 24, 24));
     
     
+    
 }
 #Comum{
     
-    margin-top: 4vh;
+    margin-top: 7%;
     line-height: 70px;
     position: relative;
     z-index: 6;
-    min-height:20%;
+    min-height: 20%;
     min-width: 20%;
+    font-size: 75%;
 }
 
 
 #By{
     margin-top: 0vh;
-    max-width: 500px;
+    max-width: 100%;
     position: relative;
     z-index: 6;
-    padding-left: 25vh;
+    padding-left: 15%;
+    font-size: 85%;
 }
 
 #Fonte{
@@ -84,24 +90,39 @@ width: 100%;
     color: sandybrown;
     z-index: 6;
     position: relative;
+    font-size: 95%;
 }
 
-#Link{
+#Conheca{
     font-size: 37.7px;
     margin:0;
+    width: 35%;
     z-index: 6;
     left: 40vh;
     top: 5vh;
     position: relative;
     text-decoration: none;
+    font-size: 75%;
+}
+
+#Conheca a {
+    text-decoration:none;
+    border-bottom: 2px solid sandybrown;
+    box-shadow: inset 6px 1px 25px 2px sandybrown;
+    color: inherit;
+    border-radius: 0px 15px 15px 15px ;
+    transition: 0.3s;
     
 }
-#Link a{
-    text-decoration: none;
-    color: #E5C8AC;
+
+#Conheca a:hover {
+  background: sandybrown;
+
 }
-
-
+#Conheca a{
+    text-decoration: none;
+    color: #0e0b08;
+}
 
 #Seta{
     font-size: 37.7px;

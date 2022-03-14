@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-import meta from "../Img/Metadinhas.png"
+import meta from "../Img/Arara.jpg"
 import Portifolio from './Portifolio.js';
 import { Link } from 'react-router-dom';
 
@@ -36,10 +36,10 @@ function Home () {
                 SIL ALVES
             </p>
             </div>
-            <div id="Link">
+            <div id="Conheca">
                <Link to={'/Portifolio'}>Conheça</Link>
                 </div>
-            <div id="Seta">aa</div>
+            <div id="Seta">Seta</div>
         
         </div>
     </div>
